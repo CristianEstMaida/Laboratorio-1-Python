@@ -34,9 +34,6 @@ for i in range(5):
     # Contar pares e impares
     if numero % 2 == 0:
         cantidad_pares += 1
-        #c
-        # if mayor_par is None or numero > mayor_par:
-        #     mayor_par = numero
     else:
         cantidad_impares += 1
     #b
