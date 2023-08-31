@@ -6,7 +6,7 @@ while edad < 0:
 # Determinar la categoría
 if edad > 18:
     categoria = "mayor de edad"
-elif 13 <= edad <= 17:
+elif edad > 12:
     categoria = "adolescente"
 else:
     categoria = "niño"
