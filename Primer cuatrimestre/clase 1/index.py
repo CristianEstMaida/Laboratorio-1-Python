@@ -88,7 +88,6 @@ while respuesta == "SI":
     
     respuesta = input("¿Desea continuar? (SI/NO) ").upper()
     
-
 porcentaje_pizza = (contador_platos_pizza * 100) / contador_total_platos
 porcentaje_ensalada = (contador_platos_pizza * 100) / contador_total_platos
 porcentaje_hamburguesa = (contador_platos_pizza * 100) / contador_total_platos
@@ -98,9 +97,12 @@ if contador_jugo == 0:
 else:
    promedio_jugo = (contador_jugo * precio_unitario_bebida) / contador_amigos
     
-print("El total gastado es ", total_acumulado)
-print("El promedio gastado en jugo es ", format(promedio_jugo, '.2f'))
-print("Los porcentajes de pizza: {:.2f}%, ensalada: {:.2f}%, hamburguesa: {:.2f}%".format(porcentaje_pizza, porcentaje_ensalada, porcentaje_hamburguesa))
+propina = total_acumulado * 0.1
+    
+print("A) El total gastado por el grupo es ", total_acumulado)
+print("La propina sugerida para el personal es ", propina)
+print("B) El promedio gastado en jugo es ", format(promedio_jugo, '.2f'))
+print("C) Los porcentajes de pizza: {:.2f}%, ensalada: {:.2f}%, hamburguesa: {:.2f}%".format(porcentaje_pizza, porcentaje_ensalada, porcentaje_hamburguesa))
 print(lista_pizza)
 print(lista_hamburguesa)
 print(lista_ensadala)
