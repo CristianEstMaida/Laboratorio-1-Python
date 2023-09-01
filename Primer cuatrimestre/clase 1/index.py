@@ -100,7 +100,7 @@ else:
 propina = total_acumulado * 0.1
     
 print("A) El total gastado por el grupo es ", total_acumulado)
-print("La propina sugerida para el personal es ", propina)
+print("La propina sugerida para el personal es ", format(propina, '.2f'))
 print("B) El promedio gastado en jugo es ", format(promedio_jugo, '.2f'))
 print("C) Los porcentajes de pizza: {:.2f}%, ensalada: {:.2f}%, hamburguesa: {:.2f}%".format(porcentaje_pizza, porcentaje_ensalada, porcentaje_hamburguesa))
 print(lista_pizza)
