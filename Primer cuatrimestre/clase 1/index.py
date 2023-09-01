@@ -62,7 +62,7 @@ while respuesta == "SI":
         cant_bebidas = int(input("La cantidad debe ser al menos 1 uno"))
         
     if bebida == "jugo":
-        contador_jugo+=1
+        contador_jugo += 1
     elif bebida == "agua":
         lista_agua.append(nombre)
         
