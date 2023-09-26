@@ -20,7 +20,6 @@ def superheroes(genero:str)->dict:
     print(f"No hay superheroes de genero {genero} en la lista")
   return lista_superheroe_nb
 
-
 def superheroe_mas_alto(genero:str)->str:
   """Determina cuál es el superhéroe más alto según su género."""
   superheroe_mas_alto = None
